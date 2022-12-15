@@ -1,13 +1,23 @@
 {
-  "name": "app",
-  "private": "true",
+  "name": "task-runner-on-web",
+  "private": true,
   "dependencies": {
     "@hotwired/stimulus": "^3.1.1",
     "@hotwired/turbo-rails": "^7.2.4",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.3",
     "sortablejs": "^1.15.0",
+    "typed.js": "^2.0.12",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0"
+  },
+  "version": "1.0.0",
+  "description": "poster application for web",
+  "main": "app/javascript/controllers/index.js",
+  "repository": "https://github.com/CarliSch/-task-runner-on-web.git",
+  "author": "Carl Schierstaedt <carl.schierstaedt@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
   }
 }
