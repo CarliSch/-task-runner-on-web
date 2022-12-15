@@ -1,4 +1,5 @@
 require_relative "boot"
+require_relative "authorization"
 
 require "rails/all"
 
@@ -23,5 +24,6 @@ module TaskRunnerOnWeb
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    # christoffer
   end
 end

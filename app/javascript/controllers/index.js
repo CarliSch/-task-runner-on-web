@@ -4,5 +4,20 @@
 
 import { application } from "./application"
 
+import DogsController from "./dogs_controller"
+application.register("dogs", DogsController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
+
+import ShowUniversityController from "./show_university_controller"
+application.register("show-university", ShowUniversityController)
+
+import TypedJsController from "./typed_js_controller"
+application.register("typed-js", TypedJsController)
+
+import UniversitiesController from "./universities_controller"
+application.register("universities", UniversitiesController)
+
+import UserPhoneNumberController from "./user_phone_number_controller"
+application.register("user-phone-number", UserPhoneNumberController)

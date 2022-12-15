@@ -1,0 +1,22 @@
+<div class="m-5" data-controller="user-phone-number">
+  <form action="" id="form" data-action="submit->user-phone-number#phone">
+    <input type="number" id="moin" class="form-input" placeholder="Enter the 10 digit mobile">
+    <input type="submit">
+  </form>
+</div>
+
+
+
+<%# keep this code it is the list of all the tasks %>
+  <div>
+    <%= link_to "Closed tasks", index_closed_tasks_path %>
+  </div>
+  <button class="btn btn-primary btn-lg" data-controller="show_university" data-action="click->show-university#disable">
+      Click me!
+    </button>
+  <h1 class="text-center">Open Tasks</h1>
+<div class="container d-flex justify-content-center ">
+  <div class="list-group col-sm-4" data-controller="universities" id="tasks" >
+  </div>
+</div>
+  <%= link_to "Back to Homepage", root_path %>
